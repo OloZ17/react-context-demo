@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing UserDetail() Component should take a snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    Sélectionner un utilisateur 
+  </div>
+</DocumentFragment>
+`;

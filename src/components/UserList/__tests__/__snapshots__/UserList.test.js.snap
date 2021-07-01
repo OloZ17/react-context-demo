@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing UserList() Component should take a snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <ul
+      class="col-md-4"
+    >
+      <li
+        class="list-group-item"
+      >
+        Sarah Croche
+      </li>
+      <li
+        class="list-group-item"
+      >
+        Eléonore  Labanquise
+      </li>
+      <li
+        class="list-group-item"
+      >
+        Emma Karena
+      </li>
+      <li
+        class="list-group-item"
+      >
+        Jean Bonnot
+      </li>
+    </ul>
+  </div>
+</DocumentFragment>
+`;

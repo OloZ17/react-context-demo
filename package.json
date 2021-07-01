@@ -27,7 +27,8 @@
       "src/**/*.{js,jsx}",
       "!src/**/index.js",
       "!src/setupTest.js",
-      "!src/redux/store.js"
+      "!src/redux/store.js",
+      "!src/reportWebVitals.js"
     ]
   },
   "eslintConfig": {
