@@ -1,4 +1,4 @@
-![example workflow](https://github.com/OloZ17/react-redux-demo/actions/workflows/node.js.yml/badge.svg) [![Coverage Status](https://coveralls.io/repos/github/OloZ17/react-redux-demo/badge.svg?branch=main&service=github)](https://coveralls.io/github/OloZ17/react-redux-demo?branch=main)
+![example workflow](https://github.com/OloZ17/react-context-demo/actions/workflows/node.js.yml/badge.svg) [![Coverage Status](https://coveralls.io/repos/github/OloZ17/react-context-demo/badge.svg?branch=main&service=github)](https://coveralls.io/github/OloZ17/react-context-demo?branch=main)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
