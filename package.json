@@ -20,7 +20,7 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "eslint-plugin-testing-library": "5.7.2"
+    "eslint-plugin-testing-library": "5.7.3"
   },
   "jest": {
     "collectCoverageFrom": [
