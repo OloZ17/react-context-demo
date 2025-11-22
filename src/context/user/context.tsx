@@ -19,16 +19,16 @@ interface UserProviderProps {
 }
 
 export const UserProvider: React.FC<UserProviderProps> = ({ children }) => {
-  const [state, dispatch] = useReducer(user, initialState, (): User => {
+  const [state, dispatch] = useReducer(user, initialState, (init): User => {
     const lastState = sessionStorage.getItem('context-user')
     if (lastState) {
       try {
         return JSON.parse(lastState)
       } catch {
-        return initialState
+        return init
       }
     }
-    return initialState
+    return init
   })
 
   useEffect(() => {
