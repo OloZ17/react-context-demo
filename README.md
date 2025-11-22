@@ -8,10 +8,10 @@ A demonstration project showcasing React Context API usage, built with Vite, Typ
 
 ## Tech Stack
 
-- **React 18.3** - UI library
-- **TypeScript 5.6** - Type safety
-- **Vite 5.4** - Fast build tool and dev server
-- **Vitest 2.1** - Fast unit testing framework
+- **React** - UI library
+- **TypeScript** - Type safety
+- **Vite** - Fast build tool and dev server
+- **Vitest** - Fast unit testing framework
 - **Testing Library** - React component testing utilities
 
 ## Available Scripts
