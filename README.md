@@ -2,71 +2,68 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Context Demo
+
+A demonstration project showcasing React Context API usage, built with Vite, TypeScript, and Vitest.
+
+## Tech Stack
+
+- **React 18.3** - UI library
+- **TypeScript 5.6** - Type safety
+- **Vite 5.4** - Fast build tool and dev server
+- **Vitest 2.1** - Fast unit testing framework
+- **Testing Library** - React component testing utilities
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `yarn start`
+### `npm run dev`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Runs the app in development mode with Vite's dev server.\
+Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
 
-The page will reload if you make edits.\
+The page will hot-reload when you make edits.\
 You will also see any lint errors in the console.
 
-### `yarn test`
+### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches Vitest in watch mode.\
+Tests will automatically re-run when you make changes to your code.
 
-### `yarn build`
+### `npm run test:ui`
 
-Builds the app for production to the `build` folder.\
+Launches Vitest with a browser-based UI for a better testing experience.
+
+### `npm run test:coverage`
+
+Runs tests and generates a coverage report.\
+Coverage reports will be available in the `coverage` directory.
+
+### `npm run build`
+
+Builds the app for production to the `dist` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
+The build is minified and the filenames include hashes for cache busting.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `npm run preview`
 
-### `yarn eject`
+Previews the production build locally.\
+Run this after `npm run build` to test the production build before deployment.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### `npm run lint`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Runs ESLint to check for code quality issues.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### `npm run format`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Formats your code using Prettier.
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Vite Documentation](https://vitejs.dev/)
+- [Vitest Documentation](https://vitest.dev/)
+- [React Documentation](https://react.dev/)
+- [TypeScript Documentation](https://www.typescriptlang.org/)
