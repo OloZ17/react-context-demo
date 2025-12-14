@@ -31,7 +31,7 @@
     "@vitest/ui": "4.0.15",
     "eslint": "9.39.2",
     "eslint-plugin-react-hooks": "7.0.1",
-    "eslint-plugin-react-refresh": "0.4.24",
+    "eslint-plugin-react-refresh": "0.4.25",
     "eslint-plugin-testing-library": "7.13.6",
     "jsdom": "27.3.0",
     "prettier": "3.7.4",
